@@ -7,7 +7,7 @@ from pulumi_aws import s3
 bucket = s3.Bucket('app-bucket',
     # Add tags for better resource management
     tags={
-        'Environment': 'Development',
+        'Environment': 'Testing',
         'ManagedBy': 'Pulumi',
         'Project': 'neo-test-profile',
     },
